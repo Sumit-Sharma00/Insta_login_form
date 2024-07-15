@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.back{
+    background-image: url(background.png);
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    filter: blur(4px);
+}
+.total{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    height: 250px;
+    width: 25%;
+    border: 1px solid black;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background-color: white;
+    color: black;
+}
+p{
+    text-align: right;
+    padding: 5px;
+}
+.inst{
+    font-size: larger;
+    font-family: serif;
+    font-style: italic;
+}
+.form{
+    position: relative;
+    margin: 10px;
+    margin-left: 13px;
+    width: 90%;
+}
+input[type=text]{
+    width: 95%;
+    height: 20px;
+    background-color: rgb(236, 230, 230);
+    margin-bottom: 5px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+input[type=password]{
+    width: 95%;
+    height: 20px;
+    background-color: rgb(236, 230, 230);
+    margin-bottom: 10px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+#x{
+    background-color: white;
+    color: black;
+    width: 98%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: 0;
+}
+#button{
+    background-color: rgba(16, 119, 193, 0.700);
+    color: white;
+    width: 95%;
+    height: 25px;
+    border: 0;
+    border-radius: 3px;
+}
+#xyz{
+    width: 40%;
+}
+.or{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.facebook i{
+    width: 20px;
+}
+.facebook{
+    color: rgb(5, 5, 133);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forgot{
+    color: rgb(5, 5, 133);
+    font-size: small;
+    font-weight: lighter;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.signup{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 3px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 100%;
+    font-size: 30;
+    position: relative;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup a{
+    text-decoration: none;
+}
+.last{
+    position: relative;
+    width: 100%;
+    top: 30px; 
+    text-align: center;
+}
+.app{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.apple{
+    font-size: xx-large;
+    height: 40px;
+    width: 140px;
+    background-color: black;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.download{
+    color: white;
+}
+#dwl{
+    font-size: 15px;
+    padding: 0;
+}
+#str{
+    font-size: large;
+    text-align: center;
+    padding: 0;
+}
+.android{
+    margin-top: 5px;
+    font-size: xx-large;
+    height: 40px;
+    width: 140px;
+    background-color: black;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+#button:hover{
+    transform: scale(0.9);
+}
+#button a{
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .total{
+        height: 350px;
+        width: 25%;
+    }
+    
+}
